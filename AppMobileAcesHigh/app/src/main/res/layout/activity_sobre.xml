@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.appmobileaceshigh.Sobre">
+
+    <Button
+        android:id="@+id/btnvoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6FC4FA"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/voltar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.901"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/textComojogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/objetivo_do_jogador_e_como_jogar"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:id="@+id/textObjetivo"
+        android:layout_width="345dp"
+        android:layout_height="106dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/o_objetivo_principal_do_jogador_guiar_sua_nave_habilmente_por_um_mapa_repleto_de_obst_culos_inimigos_e_perigos_ao_longo_da_jornada_os_jogadores_precisar_o_aprimorar_suas_habilidades_de_pilotagem_evitando_colis_es_e_destruindo_os_inimigos"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textComojogar"
+        app:layout_constraintVertical_bias="0.122"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="341dp"
+        android:layout_height="123dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/a_jogabilidade_bem_simples_o_jogador_utiliza_os_seguintes_bot_es_para_se_mover_para_a_esquerda_para_se_mover_para_a_direita_e_e_mouse"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textObjetivo"
+        app:layout_constraintVertical_bias="0.163"
+        tools:ignore="TextSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

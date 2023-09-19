@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.appmobileaceshigh.Historia">
+
+    <Button
+        android:id="@+id/btnvoltar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6FC4FA"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/voltar"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.953" />
+
+    <TextView
+        android:id="@+id/textHistoria1"
+        android:layout_width="349dp"
+        android:layout_height="136dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/em_um_mundo_futurista_onde_a_guerra_tornou_se_um_esporte_mortal_os_pilotos_mais_habilidosos_se_re_nem_no_torneio_aces_high_para_provar_sua_destreza_e_dominar_os_c_us_no_comando_de_jatos_de_alta_tecnologia_os_jogadores_embarcar_o_em_miss_es_emocionantes_em_tr_s_cen_rios_desafiadores_uma_cidade_devastada_uma_vila_pac_fica_e_o_vasto_espa_o_sideral_a_competi_o_feroz_e_apenas_os_pilotos_mais_habilidosos_e_estrat_gicos_prevalecer_o"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.677"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.401"
+        tools:ignore="VisualLintLongText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textHistoriadoJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="148dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/historia_do_jogo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <TextView
+        android:id="@+id/textHistoria2"
+        android:layout_width="326dp"
+        android:layout_height="119dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/aces_high_se_passa_em_um_futuro_dist_pico_onde_na_es_rivais_resolveram_suas_diferen_as_em_uma_quot_arena_quot_de_combate_a_reo_conhecida_como_o_torneio_aces_high_o_jogo_coloca_os_jogadores_no_papel_de_pilotos_de_elite_onde_o_jogador_deve_destruir_as_aeronaves_que_aparecem_no_mapa"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/textSinopse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/sinopse"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textHistoria1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textHistoria"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/bubblegum"
+        android:text="Historia"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/textHistoria2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textHistoria1"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="HardcodedText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

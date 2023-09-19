@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context="com.example.appmobileaceshigh.MainActivity">
+
+    <Button
+        android:id="@+id/btnmapas"
+        android:layout_width="168dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="36dp"
+        android:backgroundTint="#6FC4FA"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/mapas"
+        android:textColor="#000000"
+        android:textColorHighlight="#EF0000"
+        android:textColorLink="#F80000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.417" />
+
+    <Button
+        android:id="@+id/btnhistoria"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#6FC4FA"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/historia"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.249" />
+
+    <Button
+        android:id="@+id/btnsobre"
+        android:layout_width="140dp"
+        android:layout_height="74dp"
+        android:layout_marginBottom="48dp"
+        android:backgroundTint="#6FC4FA"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/sobre"
+        android:textColor="#000000"
+        android:textColorHighlight="#000000"
+        android:textColorHint="#000000"
+        android:textColorLink="#000000"
+        android:textSize="25sp"
+        app:iconTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.589"
+        app:rippleColor="#000000" />
+
+    <Button
+        android:id="@+id/btnsair"
+        android:layout_width="97dp"
+        android:layout_height="63dp"
+        android:backgroundTint="#FF0058"
+        android:fontFamily="@font/bubblegum"
+        android:text="@string/sair"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textAcesHigh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="135dp"
+        android:fontFamily="cursive"
+        android:text="@string/aces_high_wiki"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.117" />
+
+    <ImageView
+        android:id="@+id/Id_Web"
+        android:layout_width="96dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/todo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/githublogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
