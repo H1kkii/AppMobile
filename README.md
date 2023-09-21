@@ -3,6 +3,12 @@
 Duplas: Henrique Vitor e Victor Chefer
 
 
+### Vídeo do App Funcionando: 
+
+[Vídeo sem título - Screen Recording - 21_09_2023, 07_15_25.webm](https://github.com/H1kkii/AppMobile/assets/101645820/4e7ee8aa-13d3-4e5a-82bf-087dc0540430)
+
+
+
 Tema do App: Wiki 
 
 ### Tela Inicial
